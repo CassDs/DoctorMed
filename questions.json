@@ -1,0 +1,373 @@
+{
+	"questions": {
+		"q1": {
+			"question": "Primeira consulta ou retorno?",
+			"options": {
+				"1": {
+					"response": "Ok, primeira consulta!",
+					"respoPossible": [
+						"primeira consulta",
+						"consulta",
+						"primeira"
+					],
+					"next": "q2"
+				},
+				"2": {
+					"response": "Ok, retorno!",
+					"respoPossible": [
+						"retorno",
+						"volta"
+					],
+					"next": "end"
+				}
+			}
+		},
+		"q2": {
+			"question": "Qual o sexo?",
+			"options": {
+				"M": {
+					"response": "Entendi, é um homem.",
+					"respoPossible": [
+						"M",
+						"m",
+						"homem",
+            "Masculino"
+					],
+					"next": "q3"
+				},
+				"F": {
+					"response": "Entendi, é uma mulher.",
+					"respoPossible": [
+						"F",
+						"f",
+						"mulher",
+            "Feminino"
+					],
+					"next": "q3"
+				}
+			}
+		},
+		"q3": {
+      "question": "Qual a idade?",
+      "options": {
+          "age": {
+              "response": "Ok, o paciente tem %",
+              "respoPossible": ["%"],
+              "next": "q4"
+          }
+      }
+  },
+		"q4": {
+			"question": "O paciente tem disartria?",
+			"options": {
+				"1": {
+					"response": "Entendido, ele tem disartria.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q5"
+				},
+				"2": {
+					"response": "Entendido, você não tem disartria.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q5"
+				}
+			}
+		},
+		"q5": {
+			"question": "O paciente Mudança na voz?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem mudança na voz.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q6"
+				},
+				"2": {
+					"response": "Entendido, não tem mudança na voz.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q6"
+				}
+			}
+		},
+		"q6": {
+			"question": "Dificuldade para mastigar?",
+			"options": {
+				"1": {
+					"response": "Entendido,tem dificuldade para mastigar.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q7"
+				},
+				"2": {
+					"response": "Entendido, não tem dificuldade para mastigar.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q7"
+				}
+			}
+		},
+		"q7": {
+			"question": "Disfagia?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem disfagia.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q8"
+				},
+				"2": {
+					"response": "Entendido, não tem disfagia.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q8"
+				}
+			}
+		},
+		"q8": {
+			"question": "Falta de ar?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem falta de ar.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q9"
+				},
+				"2": {
+					"response": "Entendido, não tem falta de ar.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q9"
+				}
+			}
+		},
+		"q9": {
+			"question": "Ser incapaz de assobiar ou sugar um canudo?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem essa incapacidade.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q10"
+				},
+				"2": {
+					"response": "Entendido, não tem essa incapacidade.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q10"
+				}
+			}
+		},
+		"q10": {
+			"question": "Líquidos regurgitados pelo nariz com tentativa de engolir?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem esse sintoma.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q11"
+				},
+				"2": {
+					"response": "Entendido, não tem esse sintoma.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q11"
+				}
+			}
+		},
+		"q11": {
+			"question": "Fraqueza dos membros?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem fraqueza dos membros.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q12"
+				},
+				"2": {
+					"response": "Entendido, não tem fraqueza dos membros.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q12"
+				}
+			}
+		},
+		"q12": {
+			"question": "Fraqueza facial?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem fraqueza facial.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q13"
+				},
+				"2": {
+					"response": "Entendido, não tem fraqueza facial.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q13"
+				}
+			}
+		},
+		"q13": {
+			"question": "Fraqueza palatal?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem fraqueza palatal.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q14"
+				},
+				"2": {
+					"response": "Entendido, não tem fraqueza palatal.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q14"
+				}
+			}
+		},
+		"q14": {
+			"question": "Fraqueza orofaríngea?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem fraqueza orofaríngea.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q15"
+				},
+				"2": {
+					"response": "Entendido, não tem fraqueza orofaríngea.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q15"
+				}
+			}
+		},
+		"q15": {
+			"question": "Fraqueza laríngea?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem fraqueza laríngea.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "q16"
+				},
+				"2": {
+					"response": "Entendido, não tem fraqueza laríngea.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "q16"
+				}
+			}
+		},
+		"q16": {
+			"question": "Fraqueza diafragmática?",
+			"options": {
+				"1": {
+					"response": "Entendido, tem fraqueza diafragmática.",
+					"respoPossible": [
+						"sim",
+						"s",
+						"S"
+					],
+					"next": "end"
+				},
+				"2": {
+					"response": "Entendido, não tem fraqueza diafragmática.",
+					"respoPossible": [
+						"não",
+						"nao",
+						"n",
+						"N"
+					],
+					"next": "end"
+				}
+			}
+		}
+	}
+}
